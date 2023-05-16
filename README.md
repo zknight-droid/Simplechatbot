@@ -58,7 +58,7 @@ Pastikan versi pip yang terinstal adalah yang terbaru.
 
 1. Clone repositorinya
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/zknight-droid/Simplechatbot.git
    ```
 2. Pindah ke direktori Simplechatbot
    ```sh
