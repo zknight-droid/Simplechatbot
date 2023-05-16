@@ -1,5 +1,5 @@
 requests
 numpy==1.21.0
-scipy==1.7.0
+scipy==1.6.3
 nltk==3.6.3
 scikit-learn==0.24.2
