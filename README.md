@@ -44,31 +44,37 @@ Chat Bot sederhana yang memungkinkan pengguna dapat berinteraksi dengan bot mela
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Project ini menggunakan Python versi 3.10.9.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+Pastikan versi pip yang terinstal adalah yang terbaru.
+* pip
   ```sh
-  npm install npm@latest -g
+  pip install --upgrade pip
   ```
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone repositorinya
    ```sh
    git clone https://github.com/github_username/repo_name.git
    ```
-3. Install NPM packages
+2. Pindah ke direktori Simplechatbot
    ```sh
-   npm install
+   cd Simplechatbot
    ```
-4. Enter your API in `config.js`
+3. Buatlah virtual environment
+   ```sh
+   python3 -m venv myenv
+   ```
+4. Jalankan virtual environment
    ```js
-   const API_KEY = 'ENTER YOUR API';
+   myenv\Scripts\activate.bat
+   ```
+4. Install library yang diperlukan
+   ```js
+   pip install -r requirements.txt
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
